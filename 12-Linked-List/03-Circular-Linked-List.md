@@ -1,4 +1,7 @@
 # Circular Linked List
+The **circular linked list** is a linked list where all nodes are connected to form a circle. In a circular linked list, the first node and the last node are connected to each other which forms a circle. There is no NULL at the end.
+
+![CircularLinkeList](https://media.geeksforgeeks.org/wp-content/uploads/CircularLinkeList.png))
 
 ## Implementation  of Circular Linked List(c++)
 ```cpp
@@ -110,6 +113,7 @@ Node *deleteAtEnd(Node *head){
 	}
 }
 ```
+
 ### Delete Kth Node
 
 

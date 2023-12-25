@@ -1,5 +1,7 @@
 # Doubly Linked List
+A **doubly linked list** (DLL) is a special type of linked list in which each node contains a pointer to the previous node as well as the next node of the linked list.
 
+![Doubly Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2014/03/DLL1.png)
 
 ## Implementation  of Doubly Linked List(c++)
 ```cpp

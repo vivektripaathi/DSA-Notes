@@ -4,7 +4,7 @@ A linked list is a linear data structure, that consists of collection of nodes a
 - Each node contains a data field and a pointer to the next node in the list.
 -  The last node in the list will have a pointer to null.
 
-## Memory Representation of Linked List
+![Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230726162542/Linked-List-Data-Structure.png)
 
 ## Implementation  of Linked List(c++)
 ```cpp
