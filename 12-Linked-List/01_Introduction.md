@@ -16,13 +16,13 @@ struct Node{
 		data = x;
 		next = NULL;
 	}
-}
+};
 
 int main(void){
 	// Initializing Nodes
 	Node *head  = new Node(10);
 	Node *node2 = new Node(20);
-	Node *node3 = new NODE(30);
+	Node *node3 = new Node(30);
 	// Linking nodes to form linked list
 	head -> next = node2;
 	node2 -> next = node3;
