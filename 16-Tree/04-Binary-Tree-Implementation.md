@@ -1,6 +1,6 @@
 # Binary Tree Implementation
 
-## Structure of Tree
+## Structure of Node
 ```cpp
 // Method 1: Using "struct" to make
 struct node {
