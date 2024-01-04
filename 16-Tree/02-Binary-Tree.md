@@ -38,3 +38,9 @@ A binary tree is a tree data structure composed of nodes, each of which has at m
 2. Linked List Representation
 
 ## [Implementation of Binary Tree](16-Tree/04-Binary-Tree-Implementation)
+
+## [Traversal of Binary Tree](16-Tree/05-Binary-Tree-Traversal)
+Generally used way to traverse a binary tree are:
+1. Inorder Traversal
+2. Preorder Traversal
+3. Postorder Traversal
