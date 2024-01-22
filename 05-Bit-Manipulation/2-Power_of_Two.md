@@ -14,8 +14,6 @@ bool powerTwo(int n){
 }
 ```
 
-5&2
-
 ## Efficient Solution
 ```cpp
 bool powerTwo(int n){
