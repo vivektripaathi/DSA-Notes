@@ -9,7 +9,7 @@ The function $f(n) = O(g(n)) \ iff\ \exists$ +ve constants C and $n_0$ such that
 
 
 ## Omega($\Omega$) Notation:
-The function $f(n) = O(g(n)) \ iff\ \exists$ +ve constants C and $n_0$ such that $f(n) \geq C * g(n) \ \forall \ n \geq n_0$.
+The function $f(n) = \Omega(g(n)) \ iff\ \exists$ +ve constants C and $n_0$ such that $f(n) \geq C * g(n) \ \forall \ n \geq n_0$.
 - The notation Ω(n) is the formal way to express the <mark class="hltr-orange">lower bound of an algorithm's running time</mark>.
 - It measures the **best case time complexity** or the best amount of time an algorithm can possibly take to complete.
 
