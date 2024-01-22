@@ -10,7 +10,7 @@ Analysis of algorithms is the determination of the <mark class="hltr-yellow">amo
 - More importantly, by analysing different algorithms, we can compare them to determine the best one for our purpose.
 
 # Asymptotic Analysis
-In asymptotic analysis, we evaluate the performance of an algorithm in terms of input size(we don't measure the actual running time).
+In asymptotic analysis, we evaluate the performance of an algorithm <mark class="hltr-orange">in terms of input size(we don't measure the actual running time).</mark>
 - We calculate how the time(or space) taken by an algorithm increases with the input size.
 
 # Order of Growth
