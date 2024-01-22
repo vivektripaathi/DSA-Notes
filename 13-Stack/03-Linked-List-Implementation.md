@@ -78,7 +78,6 @@ int main(void) {
 
 ## Using `Class`
 ```cpp
-```cpp
 using namespace std;
 
 // creating a linked list;
@@ -229,5 +228,4 @@ int main()
 
 	return 0;
 }
-```
 ```
