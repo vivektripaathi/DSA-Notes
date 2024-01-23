@@ -57,3 +57,28 @@
 >Test Case 2
 >>Input: 6
 >>Output: 8
+
+>[!Question] Rope Cutting Problem: Cut the rope n in maximum number of pieces such that every piece is of length either of a or b or c
+>Test Case 1
+>>Input: n  = 5, a = 2, b = 5, c = 1
+>>Output: 5
+>
+>Test Case 2
+>>Input: n = 23, a = 12, b = 9, c = 11
+>>Output: 2
+>
+>Test Case 3
+>>Input: n = 5, a = 4, b = 2, c =6
+>>Output: -1
+>
+> Interesting Test Case
+>> Input: n = 9, a = 2, b = 2, c = 2
+```cpp
+int maxPieces(int n, int a, int b, int c){
+	if(n == 0) return 0;
+	if(n < -1) return -1;
+	int res = max(max(maxPieces(n-a, a, b, c),maxPieces(n-b, a, b, c)),maxPieces(n-c, a, b, c));
+	if(res == -1) return -1;
+	return res + 1;
+}
+```
