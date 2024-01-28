@@ -5,7 +5,7 @@ A binary Search Tree is a node-based binary tree data structure which has the fo
 - The left and right subtree each must also be a binary search tree.
 - There must be no duplicate nodes.
 
-## [Operations of Binary Search Tree](/17-Binary-Search-Tree/02-BST-Operations)
+## [Operations of Binary Search Tree](/17-Binary-Search-Tree/02-BST-Operations.md)
 - Search
 - Insert
 - Delete
