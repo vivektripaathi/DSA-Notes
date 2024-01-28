@@ -85,7 +85,7 @@ int maxPieces(int n, int a, int b, int c){
 ```
 - Example Explanation
 
-![Rope Cutting Explanation](assets/images/ropeCutting.png)
+![Rope Cutting Explanation](/assets/images/ropeCutting.png)
 
 >[!Question] Generate Subsets
 >Test Case 1
@@ -108,7 +108,7 @@ void printSubsets(string set, string current = "", int i = 0){
 ```
 - Example Explanation
 
-![Generate Subset Explanation Recursion Tree](assets/images/subset.png)
+![Generate Subset Explanation Recursion Tree](/assets/images/subset.png)
 
 >[!Question] Tower Of Hanoi
 >Test Case 1
@@ -140,9 +140,9 @@ void towerOfHanoi(int n, char a = 'A', char b = 'B', char c = 'C'){
 ```
 - Example Explanation
 
-![Tower of Hanoi Explanation1](assets/images/toh1.jpeg)
+![Tower of Hanoi Explanation1](/assets/images/toh1.jpeg)
 
-![Tower of Hanoi Explanation1](assets/images/toh2.jpeg)
+![Tower of Hanoi Explanation1](/assets/images/toh2.jpeg)
 
 >[!Question] Josephus Problem
 >Test Case 1
@@ -164,7 +164,7 @@ int jos(int n, int k)
 ```
 - Example Explanation
 
-![Josephus Problem Explanation](assets/images/josephus.jpeg)
+![Josephus Problem Explanation](/assets/images/josephus.jpeg)
 
 >[!Question] Subset Sum Problem
 >Test Case 1
@@ -192,7 +192,7 @@ int countSubSets(int arr[], int n, int sum) {
 ```
 - Example Explanation
 
-![Subset Sum Recursion Tree Example Explanation](assets/images/subsetSum.jpeg)
+![Subset Sum Recursion Tree Example Explanation](/assets/images/subsetSum.jpeg)
 
 >[!Question] Print all permutations of a given string.
 >Test Case 1
@@ -218,6 +218,6 @@ void permute(string s, int i = 0) {
 ```
 - Example Explanation
 
-![Permutation Explanation Recursion Tree](assets/images/permute1.png)
+![Permutation Explanation Recursion Tree](/assets/images/permute1.png)
 
-![Permutation Explanation Recursion Tree](assets/images/permute2.png)
+![Permutation Explanation Recursion Tree](/assets/images/permute2.png)

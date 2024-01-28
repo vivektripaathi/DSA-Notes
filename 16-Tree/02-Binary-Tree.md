@@ -2,12 +2,12 @@
 
 A binary tree is a tree data structure composed of nodes, each of which has at most, two children, referred to as left and right nodes and the tree begins from root node.
 
-![Binary Tree](assets/binary-tree.png)
+![Binary Tree](/assets/images/binary-tree.png)
 
 ## Properties of Binary Tree
 
 1. **The maximum number of nodes at level $l$ of a binary tree is $(2^{l - 1})$**.
-2. **Maximum number of nodes in a binary tree of height 'h' is $(2^h – 1)$**.
+2. **Maximum number of nodes in a binary tree of height 'h' is $(2^h – 1)$**.
 3. **In a Binary tree in which every node has 0 or 2 children, the number of leaf nodes is always one more than the nodes with two children.**
 4. **In a Binary Tree with $N$ nodes, the minimum possible height or the minimum number of levels is $Log_2(N+1)$.**
 5. **A Binary Tree with $L$ leaves has at least $(Log_2L + 1)$ levels**.

@@ -1,6 +1,6 @@
 >[!Question] Count set bits of a number.
 
-![Count Set Bits](assets/count_set-question.png)
+![Count Set Bits](/assets/images/count_set-question.png)
 
 ## Naive Solution
 
