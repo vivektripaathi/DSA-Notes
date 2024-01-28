@@ -1,5 +1,5 @@
 # Deque
-Generalized version of [Queue](13-Queue/01-Introduction.md) that allows insert and delete at both the ends.
+Generalized version of [Queue](/15-Queue/01-Introduction.md) that allows insert and delete at both the ends.
 
 ## Array Implementation of Deque
 ```cpp

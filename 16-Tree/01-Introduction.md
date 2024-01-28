@@ -40,6 +40,6 @@ A tree data structure is a non-linear hierarchical structure that is used to rep
 
 ![Types of Tree](/assets/images/tree-types.png)
 
-1. **[Binary Tree](16-Tree/02-Binary-Tree):** A binary Tree is defined as a Tree data structure with at most 2 children. Since each element in a binary tree can have only 2 children, we typically name them the left and right child.
+1. **[Binary Tree](/16-Tree/02-Binary-Tree):** A binary Tree is defined as a Tree data structure with at most 2 children. Since each element in a binary tree can have only 2 children, we typically name them the left and right child.
 2. **Ternary Tree:** A Ternary Tree is a tree data structure in which each node has at most three child nodes, usually distinguished as “left”, “mid” and “right”.
 3. **N-ary Tree:** Generic trees are a collection of nodes where each node is a data structure that consists of records and a list of references to its children(duplicate references are not allowed). Unlike the linked list, each node stores the address of multiple nodes.

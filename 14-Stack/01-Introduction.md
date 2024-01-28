@@ -14,6 +14,6 @@ The order in which the operations are performed in stack is described as **Last 
 - **Overflow**: When `push()` is called on a full stack.
 
 ## Implementation of Stack
-1. [Array Implementation  of Stack](13-Stack/02-Array-Implementation.md)
-2. [Linked List Implementation of Stack](13-Stack/03-Linked-List-Implementation.md)
-   - Cpp provides built in [Stack STL](02-Standard-Template-Library/05-Stack) also.
+1. [Array Implementation  of Stack](/14-Stack/02-Array-Implementation.md)
+2. [Linked List Implementation of Stack](/14-Stack/03-Linked-List-Implementation.md)
+   - Cpp provides built in [Stack STL](/03-Standard-Template-Library/05-Stack) also.

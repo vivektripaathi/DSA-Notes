@@ -1,6 +1,6 @@
 # Binary Tree Traversals
 
-![Binary Tree Traversal Example](assets/images/Binary-Tree-Traversal.png)
+![Binary Tree Traversal Example](/assets/images/Binary-Tree-Traversal.png)
 
 ## Inorder Traversal
 In inorder traversal, a node is processed after processing all the nodes in its left subtree. The right subtree of the node is processed after processing the node itself. (

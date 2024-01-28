@@ -10,5 +10,5 @@ Queue is a linear data structure that follow **First In First Out** referred to 
 - **`isEmpty()`**:  Returns `true` if the stack is empty else `false`.
 
 ## Implementation of Queue(C++)
-1. [Array Implementation  of Queue](13-Queue/02-Array-Implementation.md)
-2. [Linked List Implementation of Queue](13-Queue/03-Linked-List-Implementation.md)
+1. [Array Implementation  of Queue](/15-Queue/02-Array-Implementation.md)
+2. [Linked List Implementation of Queue](/15-Queue/03-Linked-List-Implementation.md)

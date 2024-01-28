@@ -29,6 +29,3 @@ int countSetBits(int n){
 	return res;
 }
 ```
-
-
-![[Power-Two-Problem.png]]

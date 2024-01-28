@@ -5,13 +5,13 @@ A binary Search Tree is a node-based binary tree data structure which has the fo
 - The left and right subtree each must also be a binary search tree.
 - There must be no duplicate nodes.
 
-## [Operations of Binary Search Tree](17-Binary-Search-Tree/02-BST-Operations)
+## [Operations of Binary Search Tree](/17-Binary-Search-Tree/02-BST-Operations)
 - Search
 - Insert
 - Delete
 
 ## Self Balancing Binary Search Tree
-**Self-Balancing Binary Search Trees** are **height-balanced** binary search trees that automatically keeps height as small as possible when insertion and deletion operations are performed on tree. The height is typically maintained in order of Log n so that all operations take O(Log n) time on average.
+**Self-Balancing Binary Search Trees** are **height-balanced** binary search trees that automatically keeps height as small as possible when insertion and deletion operations are performed on tree. The height is typically maintained in order of Log n so that all operations take O(Log n) time on average.
 **Examples:** 
 - AVL Tree
 - Red Black Tree
