@@ -32,6 +32,6 @@ int majorityElement(vector<int>& nums) {
 
 ```
 
-![Boyer-Moore Majority Voting Algorithm](assets/images/moore-algo.jpeg)
+![Boyer-Moore Majority Voting Algorithm](/assets/images/moore-algo.jpeg)
 
 - If the question states that the array must contain a majority element, the stored element will be that one but if the question does not state so, then we need to check if the stored element is the majority element or not.
