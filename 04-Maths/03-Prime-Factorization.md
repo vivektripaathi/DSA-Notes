@@ -48,7 +48,7 @@ void printPrimeFactor(int number){
 		cout << 3 << " ";
 		number /= 3;
 	}
-	for (int i = 5; i * i <= n; i++){
+	for (int i = 5; i * i <= n; i+=6){
 		while(number % i == 0){
 			cout << i << " ";
 			number /= i;
