@@ -221,3 +221,85 @@ void permute(string s, int i = 0) {
 ![Permutation Explanation Recursion Tree](/assets/images/permute1.png)
 
 ![Permutation Explanation Recursion Tree](/assets/images/permute2.png)
+
+### Print  Subsequences
+>[!Question] Print all Subsequences of a given array.
+>
+>> Test Case
+>>Input : `{1, 2, 1}`
+>>Output : `{1 2 1}, {1, 2}, {1, 2}, {1}, {2, 1}, {2}, {1}, {}`
+>
+>> [!tip] Follow Ups
+>>
+>> >[!Question] Print all subsequences with a given sum k.
+>> >Input : `{1, 2, 1}`, `2`
+>> >Output: `{1, 1}, {2}`
+>>
+>> >[!Question] Print only one subsequences with sum k.
+>> >Input : `{1, 2, 1}`, `2`
+>> >Output: `{1, 1}`
+>>
+>> >[!Question] Return count of subsequences with sum k.
+>> >Input : `{1, 2, 1}`, `2`
+>> >Output: `2`
+
+`TODO: Add recursion tree`
+##### Solutions:
+**Base Problem**: By using <mark class="hltr-yellow">pick not pick pattern</mark> of recursion:
+```cpp
+void printSubsequences(int i, vi arr, vi ans, int n) {
+    if(i >= n) {
+        v_out(ans);
+        pl("");
+        return;
+    }
+    ans.pb(arr[i]);
+    printSubsequences(i + 1, arr, ans, n);
+    ans.pop_back();
+    printSubsequences(i + 1, arr, ans, n);
+}
+```
+
+**$1^{st}$ Follow Ups Solution**:
+```cpp
+void printSubsequencesWithSumK(int i, int sum, vi arr, vi ans, int n, int k) {
+    if(i >= n) {
+        if(sum == k) {
+            v_out(ans);
+            pl("");
+        }
+        return;
+    }
+    ans.pb(arr[i]);
+    printSubsequencesWithSumK(i + 1, sum + arr[i], arr, ans, n, k);
+    ans.pop_back();
+    printSubsequencesWithSumK(i + 1, sum, arr, ans, n, k);
+}
+```
+
+**$2^{nd}$ Follow Ups Solution**:
+```cpp
+bool printSubsequencesWithSumK(int i, int sum, vi arr, vi ans, int n, int k) {
+    if(i >= n) {
+        if(sum == k) {
+            v_out(ans);
+            pl("");
+            return true;
+        }
+        return false;
+    }
+    ans.pb(arr[i]);
+    if(printSubsequencesWithSumK(i + 1, sum + arr[i], arr, ans, n, k)) return true ;
+    ans.pop_back();
+    if(printSubsequencesWithSumK(i + 1, sum, arr, ans, n, k)) return true;
+    return false;
+}
+```
+
+**$3^{rd}$ Follow Ups Solution**:
+```cpp
+int countSubsequencesWithSumK(int i, int sum,  vi arr, int n, int k) {
+    if(i >= n) return sum == k ?  1 : 0;
+    return countSubsequencesWithSumK(i + 1, sum + arr[i], arr, n, k) + countSubsequencesWithSumK(i + 1, sum, arr, n, k);
+}
+```
