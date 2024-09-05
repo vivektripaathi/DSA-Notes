@@ -303,3 +303,13 @@ int countSubsequencesWithSumK(int i, int sum,  vi arr, int n, int k) {
     return countSubsequencesWithSumK(i + 1, sum + arr[i], arr, n, k) + countSubsequencesWithSumK(i + 1, sum, arr, n, k);
 }
 ```
+
+## Few Practice Problems based on Recursion
+
+| Sr. No. | **Problem**        | **Practice Link**                                                                                                                                                    | **DIFFICULTY** |
+| ------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| 1       | Combination Sum    | <a href="https://leetcode.com/problems/combination-sum/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>    | Medium         |
+| 2       | Combination Sum II | <a href="https://leetcode.com/problems/combination-sum-ii/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a> | Medium         |
+| 3       | Subset Sums        | <a href="https://www.geeksforgeeks.org/problems/subset-sums2234/1"><img src="../assets/images/gfg-gg-logo.svg" alt="GeekForGeeks" width="25" height="25"></a>        | Medium         |
+| 4       | Subset Sums II     | <a href="https://leetcode.com/problems/subsets-ii/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>         | Medium         |
+| 5       | Permutations       | <a href="https://leetcode.com/problems/permutations/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>       | Medium         |
