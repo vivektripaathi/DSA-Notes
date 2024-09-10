@@ -306,10 +306,15 @@ int countSubsequencesWithSumK(int i, int sum,  vi arr, int n, int k) {
 
 ## Few Practice Problems based on Recursion
 
-| Sr. No. | **Problem**        | **Practice Link**                                                                                                                                                    | **DIFFICULTY** |
-| ------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
-| 1       | Combination Sum    | <a href="https://leetcode.com/problems/combination-sum/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>    | Medium         |
-| 2       | Combination Sum II | <a href="https://leetcode.com/problems/combination-sum-ii/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a> | Medium         |
-| 3       | Subset Sums        | <a href="https://www.geeksforgeeks.org/problems/subset-sums2234/1"><img src="../assets/images/gfg-gg-logo.svg" alt="GeekForGeeks" width="25" height="25"></a>        | Medium         |
-| 4       | Subset Sums II     | <a href="https://leetcode.com/problems/subsets-ii/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>         | Medium         |
-| 5       | Permutations       | <a href="https://leetcode.com/problems/permutations/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>       | Medium         |
+| Sr. No. | **Problem**               | **Practice Link**                                                                                                                                                           | **DIFFICULTY**                            |
+| ------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| 1       | Combination Sum           | <a href="https://leetcode.com/problems/combination-sum/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>           | <span style="color: orange">Medium</span> |
+| 2       | Combination Sum II        | <a href="https://leetcode.com/problems/combination-sum-ii/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>        | <span style="color: orange">Medium</span> |
+| 3       | Subset Sums               | <a href="https://www.geeksforgeeks.org/problems/subset-sums2234/1"><img src="../assets/images/gfg-gg-logo.svg" alt="GeekForGeeks" width="25" height="25"></a>               | <span style="color: orange">Medium</span> |
+| 4       | Subset Sums II            | <a href="https://leetcode.com/problems/subsets-ii/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>                | <span style="color: orange">Medium</span> |
+| 5       | Permutations              | <a href="https://leetcode.com/problems/permutations/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>              | <span style="color: orange">Medium</span> |
+| 6       | N Queens                  | <a href="https://leetcode.com/problems/n-queens/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>                  | <span style="color: red">Hard</span>      |
+| 7       | Sudoku Solver             | <a href="https://leetcode.com/problems/sudoku-solver/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>             | <span style="color: red">Hard</span>      |
+| 8       | K-th Permutation Sequence | <a href="https://leetcode.com/problems/permutation-sequence/description/"><img src="../assets/images/LeetCode_logo_rvs.png" alt="Leetcode" width="25" height="25"></a>      | <span style="color: red">Hard</span>      |
+| 9       | M-Coloring Problem        | <a href="https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1"><img src="../assets/images/gfg-gg-logo.svg" alt="GeekForGeeks" width="25" height="25"></a> | <span style="color: orange">Medium</span> |
+
