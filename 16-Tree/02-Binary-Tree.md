@@ -14,15 +14,15 @@ A binary tree is a tree data structure composed of nodes, each of which has at m
 
 ## [Types of Binary Tree](https://www.geeksforgeeks.org/types-of-binary-tree/)
 
-**On the basis of completion of number of children:**
-1. Full Binary Tree
+### **On the basis of completion of number of children:**
+1. **Full Binary Tree**: Every node has either 0 or 2 childers.
 2. Degenerate Binary Tree
 3. Skewed Binary Trees
 
 **On the basis of the completion of levels:**
-1. Complete Binary Tree
-2. Perfect Binary Tree
-3. Balanced Binary Tree
+1. **Complete Binary Tree**: All levels are completely filled except the last level and last level has all nodes m left as possible. 
+2. **Perfect Binary Tree**: All leaf nodes are at same level.
+3. **Balanced Binary Tree**: Height can be at maximum of $\log (N)$, where N is number of nodes.
 
 **On the basis of node values:**
 1. Binary Search Tree
