@@ -2,9 +2,9 @@
 
 ![Binary Tree Traversal Example](/assets/images/Binary-Tree-Traversal.png)
 
-## Inorder Traversal
-In inorder traversal, a node is processed after processing all the nodes in its left subtree. The right subtree of the node is processed after processing the node itself. (
-- Left, Root, Left.
+# Inorder Traversal
+In Inorder Traversal, a node is processed after processing all the nodes in its left subtree. The right subtree of the node is processed after processing the node itself.
+- <mark class="hltr-yellow">Left, Root, Left</mark>
 - **Example**: Inorder traversal for the above-given tree is 4 2 5 1 3.
 ```pseudocode
 Algorithm Inorder(tree)
@@ -25,7 +25,7 @@ void printInorder(struct Node* node)
 
 ## Preorder Traversal
 In preorder traversal, a node is processed before processing any of the nodes in its subtree.
-- Root, Left, Right
+- <mark class="hltr-yellow">Root, Left, Right</mark>
 - **Example**: Preorder traversal for the above-given tree is 1 2 4 5 3.
 ```pseudocode
 Algorithm Preorder(tree)
