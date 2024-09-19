@@ -13,6 +13,7 @@ Algorithm Inorder(tree)
 	3. Traverse the right subtree, i.e., call Inorder(right->subtree)
 ```
 
+#### Recursive Function
 ```cpp
 void printInorder(struct Node* node)
 {
@@ -21,9 +22,33 @@ void printInorder(struct Node* node)
     cout << node->data << " ";
     printInorder(node->right);
 }
+
+```
+#### Iterative Function
+```cpp
+vector<int> inorderTraversal(TreeNode* root) {
+	vector<int> ans;
+	if (not root) return ans;
+	stack<TreeNode*> st;
+	TreeNode* current_node = root;
+	while (true) {
+		if (current_node != NULL) {
+			st.push(current_node);
+			current_node = current_node->left;
+		} else {
+			if (st.empty()) break;
+			current_node = st.top();
+			st.pop();
+			ans.push_back(current_node->val);
+			current_node = current_node->right;
+		}
+	}
+	return ans;
+}
+
 ```
 
-## Preorder Traversal
+# Preorder Traversal
 In preorder traversal, a node is processed before processing any of the nodes in its subtree.
 - <mark class="hltr-yellow">Root, Left, Right</mark>
 - **Example**: Preorder traversal for the above-given tree is 1 2 4 5 3.
@@ -34,6 +59,7 @@ Algorithm Preorder(tree)
 	3. Traverse the right subtree, i.e., call Preorder(right-subtree)
 ```
 
+#### Recursive Function
 ```cpp
 void printPreorder(struct Node* node)
 {
@@ -43,10 +69,27 @@ void printPreorder(struct Node* node)
     printPreorder(node->right);
 } 
 ```
+#### Iterative Function
+```cpp
+vector<int> preorderTraversal(TreeNode* root) {
+	vector<int> ans;
+	if(not root) return ans;
+	stack<TreeNode*> st;
+	st.push(root);
+	while(not st.empty()) {
+		TreeNode* current_node = st.top();
+		st.pop();
+		if(current_node -> right) st.push(current_node -> right);
+		if(current_node -> left) st.push(current_node -> left);
+		ans.push_back(current_node -> val);
+	}
+	return ans;
+}
 
-## Postorder Traversal
+```
+# Postorder Traversal
 In post order traversal, a node is processed after processing all the nodes in its subtrees.
-- Left, Right, Root.
+- <mark class="hltr-yellow">Left, Right, Root</mark>
 - **Example**: Postorder traversal for the above-given Tree is 4 5 2 3 1.
 ```pseudocode
 Algorithm Postorder(tree)
@@ -55,6 +98,7 @@ Algorithm Postorder(tree)
     3. Visit the root.
 ```
 
+#### Recursive Function
 ```cpp
 void printPostorder(struct Node* node)
 {
@@ -63,4 +107,34 @@ void printPostorder(struct Node* node)
     printPostorder(node->right);
     cout << node->data << " ";
 }
+```
+#### Iterative Function
+```cpp
+vector<int> postOrder(Node* node) {
+        vector<int> ans;
+        Node* current_node = node;
+        stack<Node*> st;
+        
+        while(not st.empty() or current_node) {
+            if(current_node) {
+                st.push(current_node);
+                current_node = current_node -> left;
+            } else {
+                Node* temp = st.top() -> right;
+                if(not temp) {
+                    temp = st.top();
+                    st.pop();
+                    ans.push_back(temp -> data);
+                    while(not st.empty() and st.top() -> right == temp) {
+                        temp = st.top();
+                        st.pop();
+                        ans.push_back(temp -> data);
+                    }
+                } else {
+                    current_node = temp;
+                }
+            }
+        }
+        return ans;
+    }
 ```
